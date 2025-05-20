@@ -6,7 +6,7 @@ public class Main {
 
         Vehicul v1 = fabrica.creeazaVehicul("masina");
         Vehicul v2 = fabrica.creeazaVehicul("bicicleta");
-        Vehicul v3 = fabrica.creeazaVehicul("motocicleta");
+        Vehicul v3 = fabrica.creeazaVehicul("motocicleta.");
 
         if (v1 != null) v1.afiseazaTipul();
         if (v2 != null) v2.afiseazaTipul();
